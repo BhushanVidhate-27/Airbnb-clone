@@ -1,8 +1,14 @@
+import Nav from './template/nav';
+import Body from './body.jsx';
+import Footer from './template/footer.jsx';
+
 function App() {
 
   return (
     <>
-      <p>home page</p>
+      <Nav />
+      <Body />
+      <Footer />
     </>
   )
 }

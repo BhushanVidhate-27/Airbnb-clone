@@ -1,0 +1,37 @@
+.foot {
+    background-color: #F7F7F7;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin-top: 8rem;
+}
+
+.support, .airbnb, .hosting {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.foot-links {
+    padding-right: 15rem;
+    padding-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 300;
+    font-size: 0.85rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-link {
+    font-weight: 600;
+}
