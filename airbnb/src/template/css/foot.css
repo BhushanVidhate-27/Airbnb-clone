@@ -35,3 +35,15 @@ a {
 .top-link {
     font-weight: 600;
 }
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}

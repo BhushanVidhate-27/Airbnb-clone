@@ -41,8 +41,14 @@ export default function Footer() {
                 </div>
                 <hr />
                 <div className="last">
-                    <div className="tnc">© 2026 Airbnb, Inc.·PrivacyTermsCompany details</div>
-                    <div className="socials"></div>
+                    <div className="tnc">© 2026 Airbnb, Inc&nbsp;&nbsp;&nbsp; Privacy &nbsp;&nbsp;&nbsp; Terms &nbsp;&nbsp;&nbsp; Company details</div>
+                    <div className="socials">
+                        <button>English</button>
+                        <button>INR</button>
+                        <img src="https://img.icons8.com/?size=100&id=6YIxE8CbxGhr&format=png&color=000000" alt="fb" />
+                        <img src="https://img.icons8.com/?size=100&id=AZnuyl4276bj&format=png&color=000000" alt="x" />
+                        <img src="https://img.icons8.com/?size=100&id=sP1pMQk5d52x&format=png&color=000000" alt="insta" />
+                    </div>
                 </div>
             </div>
         </>
